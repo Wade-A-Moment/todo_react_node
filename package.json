@@ -7,7 +7,13 @@
   "author": "y",
   "license": "y",
   "private": false,
+  "scripts": {
+    "start": "nodemon app.js"
+  },
   "dependencies": {
     "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
   }
 }
