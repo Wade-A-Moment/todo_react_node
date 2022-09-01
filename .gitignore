@@ -1,7 +1,6 @@
 #MongoDb patch
 nodemon.json
 
-
 # Logs
 logs
 *.log
