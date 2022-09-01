@@ -1,5 +1,5 @@
 const express = require("express")
-const graphqlHttp = require("express-graphql")
+const graphqlHttp = require("express-graphql").graphqlHTTP
 const mongoose = require("mongoose")
 const graphqlSchema = require("./graphql/schema")
 const graphqlResolvers = require("./graphql/resolvers")
@@ -23,4 +23,4 @@ mongoose
   .catch(error => {
     throw error
   })
-app.listen(3000, () => console.log("Server is running on localhost:3000"))
+app.listen(3000, () => console.log("Server is running on http://localhost:3000/"))
