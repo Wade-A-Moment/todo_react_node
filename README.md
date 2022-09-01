@@ -10,4 +10,3 @@ https://www.freecodecamp.org/news/how-to-build-a-todo-app-with-react-typescript-
 2. update username and password with creds from https://cloud.mongodb.com/
 
 
-stopping for the day! 7:23 PM PDT 
